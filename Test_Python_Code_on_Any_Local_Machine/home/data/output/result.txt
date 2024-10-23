@@ -1,0 +1,15 @@
+Name: 'Anay Abhijit Joshi'
+
+Total Words Count in IF.txt: 287
+Total Words Count in AlwaysRememberUsThisWay.txt (before handling contractions): 223
+Grand Total Words Count in both files (before handling contractions in 'AlwaysRememberUsThisWay.txt'): 510
+
+Total Words Count in IF.txt: 287
+Total Words Count in AlwaysRememberUsThisWay.txt (after handling contractions): 242
+Grand Total Words Count in both files (after handling contractions in 'AlwaysRememberUsThisWay.txt'): 529
+
+Top 3 Most Frequent Words and their Respective Counts in IF.txt ('not-considered words which require handling of contractions like you'll/you've' and 'cases with -and/and-'): [('YOU', 18), ('AND', 16), ('IF', 14)]
+
+Top 3 Most Frequent Words and their Respective Counts in AlwaysRememberUsThisWay.txt (after handling contractions): [('I', 15), ('THE', 13), ('NOT', 9)]
+
+IP Address of the Machine running the Container: 127.0.0.1
