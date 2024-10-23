@@ -1,0 +1,38 @@
+# Name: Anay Abhijit Joshi
+# CS 5165/6065:  Introduction to Cloud Computing
+# Date: October 9, 2024
+# Project 3: Docker (EXTRA CREDIT)
+
+# Deployment file to deploy 2 replicas
+apiVersion: apps/v1
+# Kind is Deployment
+kind: Deployment
+# Metadata
+metadata:
+  name: anayjoshi-dockercontainer-deployment
+# Specs
+spec:
+  # Replicas
+  replicas: 2  # Deploy 2 replicas
+  # Selector
+  selector:
+    # Match Labels
+    matchLabels:
+      app: anay-python-app
+  # Template
+  template:
+    # Metadata
+    metadata:
+      # Labels
+      labels:
+        app: anay-python-app
+    # Spec
+    spec:
+      # Containers
+      containers:
+        # Docker Container details
+      - name: anay-python-container
+        # Docker Image
+        image: anayjoshi/anayjoshi-python-container:latest
+        # Command
+        command: ["/bin/sh", "-c", "python /home/data/scripts.py && sleep 3600"]
