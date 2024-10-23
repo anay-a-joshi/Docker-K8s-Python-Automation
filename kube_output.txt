@@ -1,0 +1,4 @@
+NAME                                                    READY   STATUS    RESTARTS   AGE
+anayjoshi-dockercontainer-deployment-5cfcd5994f-6h9ks   1/1     Running   0          3m17s
+anayjoshi-dockercontainer-deployment-5cfcd5994f-gg7xq   1/1     Running   0          3m17s
+anayjoshi-dockercontainer-deployment-5cfcd5994f-n6mnd   1/1     Running   0          39s
